@@ -6,7 +6,7 @@ using namespace std;
 template <class T>
 T nextToLast(std::vector<T> list)
 {
-  if (list.size() == 0)
+  if (list.size() <= 0)
   {
     return 0;
   }
