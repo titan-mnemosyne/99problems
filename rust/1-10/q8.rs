@@ -20,5 +20,4 @@ fn main() {
   println!("{:?}", dedupList(&mut [1, 1, 2, 3, 3, 2]));
   println!("{:?}", dedupList(&mut [1, 2, 3]));
   println!("{:?}", dedupList(&mut [1, 1, 1, 1, 1, 1, 1]));
-
 }
